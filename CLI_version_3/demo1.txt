@@ -1,0 +1,9 @@
+echo "srbija do tokija"
+time
+date
+wc -w <demo2.txt
+date | echo "srbija"
+truncate demo3.txt
+rm srbijaDoTokija.txt
+prompt ok
+time | wc -c | echo >demo4.txt

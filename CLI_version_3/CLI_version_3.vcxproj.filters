@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="IOHandling">
+      <UniqueIdentifier>{4963156f-ab9c-4d30-92b6-412fd0536e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands">
+      <UniqueIdentifier>{cb10e0a5-1801-4d4b-9bca-c4e5a273f1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Validating">
+      <UniqueIdentifier>{f7c954d6-9b8b-4b84-9c2a-d21903c80b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TxtFiles">
+      <UniqueIdentifier>{67912c7e-e6a1-48a5-bea6-f3ad9c63d152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Production">
+      <UniqueIdentifier>{da80fe7d-c98a-4c82-8595-00e018b84757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{6d5b80d7-b2b8-459f-9945-96f79df56c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Errors">
+      <UniqueIdentifier>{54fe00bb-ab37-415c-bd05-f6e29ff44fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Preproccessing">
+      <UniqueIdentifier>{50b3585a-d29c-4dc5-b46b-16742b646d25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>Preproccessing</Filter>
+    </ClInclude>
+    <ClInclude Include="StringSplitter.h">
+      <Filter>Preproccessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Classifier.h">
+      <Filter>Preproccessing</Filter>
+    </ClInclude>
+    <ClInclude Include="InputStrategy.h">
+      <Filter>IOHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="IOBindingResolver.h">
+      <Filter>IOHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputStrategy.h">
+      <Filter>IOHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineStrategy.h">
+      <Filter>IOHandling</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>Validating</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandBuilder.h">
+      <Filter>Production</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandRegistry.h">
+      <Filter>Production</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Production</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenRule.h">
+      <Filter>Validating</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenChecker.h">
+      <Filter>Validating</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIError.h">
+      <Filter>Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="SemanticRule.h">
+      <Filter>Validating</Filter>
+    </ClInclude>
+    <ClInclude Include="SemanticChecker.h">
+      <Filter>Validating</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringSplitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Classifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOBindingResolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenRule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SemanticRule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SemanticChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLIEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>TxtFiles</Filter>
+    </Text>
+    <Text Include="demo2.txt">
+      <Filter>TxtFiles</Filter>
+    </Text>
+    <Text Include="demo3.txt">
+      <Filter>TxtFiles</Filter>
+    </Text>
+    <Text Include="demo1.txt">
+      <Filter>TxtFiles</Filter>
+    </Text>
+    <Text Include="demo4.txt">
+      <Filter>TxtFiles</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
