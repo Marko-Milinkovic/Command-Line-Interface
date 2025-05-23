@@ -14,6 +14,7 @@
    - [Usage](#usage)  
 8. [Roadmap](#roadmap)  
 9. [Conclusion](#conclusion)
+10. [License](license)
 
 ## Introduction
 
@@ -301,3 +302,7 @@ The following enhancements and features are planned for future releases:
 
 This CLI project demonstrates a robust, extensible command-shell designed with industry-grade software engineering principles. With its layered architecture, comprehensive error handling, and support for pipelines, redirection, and batch scripting, it provides a solid foundation for real-world shell development. Future enhancements outlined in the roadmap will further expand its capabilities, making it an even more powerful and flexible tool. Contributions, feedback, and collaboration are welcome—please open issues or submit pull requests to help drive this project forward.  
 
+## License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more details.
