@@ -1,4 +1,4 @@
-# Command Line Interface (CLI)
+# Command Line Interpreter (CLI)
 
 ## Contents
 
